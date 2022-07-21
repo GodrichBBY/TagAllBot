@@ -26,11 +26,11 @@ async def start(event):
   await event.reply("^_^ Hey, Welcome To TAG Help Bot's Menu\nI can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/Botz_official'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/BotzOfficial_Support'), 
+                         Button.url('📣 UPDATES', 'https://t.me/Zrobots'), 
+                         Button.url('⭐SUPPORT', 'https://t.me/zaynworld0'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/ZyTaggerbot?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -43,11 +43,11 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/Botz_Official'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/BotzOfficial_Support'), 
+                         Button.url('📣 UPDATES', 'https://t.me/Zrobots'), 
+                         Button.url('⭐SUPPORT', 'https://t.me/zaynworld0'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'http://t.me/ZyTaggerbot?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -198,5 +198,5 @@ async def telegraph(client, message):
         os.remove(download_location)
 
 print("Started Successfully Join Support")
-print("¯\_(ツ)_/¯ Need Help Join @Botz_Official")
+print("¯\_(ツ)_/¯ Need Help Join @zrobots")
 client.run_until_disconnected()
